@@ -1,3 +1,3 @@
 all:
-	ocamlfind opt -package core_kernel -linkpkg mocml.ml -o test
+	ocamlfind opt -package core_kernel -g -linkpkg mocml.ml -o test
 	./test
